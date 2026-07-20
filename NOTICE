@@ -6,6 +6,9 @@ OPEN (Apache-2.0) — Cameroon evidence/AI-governance surfaces (PL/EN) in surfac
 SEPARATE TRACK: this is NON-EU. It is intentionally kept apart from the EU layer
   (k0nsult-eu-shield) so the EU sovereignty scope is not blurred, and it carries
   its own funding/support track (no EU-earmarked resources).
-NOT INCLUDED: the proprietary k0nsult.cloud engine; personal data; secrets/keys.
+NOT INCLUDED: the proprietary k0nsult.cloud engine; personal data; secrets/keys;
+  the ipIII evidence-attestation module — a COMMERCIAL product currently for sale,
+  NOT open-sourced and NOT covered by the Apache-2.0 grant here (open-source only
+  conditionally, if unsold — operator Human Override).
 
 DOCTRINE: claim <= proof; Human Override Always; agents-not-people.
