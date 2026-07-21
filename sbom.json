@@ -2,10 +2,10 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
   "$profile": "cyclonedx-lite (podzbior: bez services/vulnerabilities/compositions)",
-  "serialNumber": "urn:uuid:49d1b52e-42cb-41b2-b286-040ce24e6cde",
+  "serialNumber": "urn:uuid:a4d54729-4737-4d78-b1a6-9fd4bb51aaf4",
   "version": 1,
   "metadata": {
-    "timestamp": "2026-07-20T16:49:56.240Z",
+    "timestamp": "2026-07-21T16:38:57.057Z",
     "tools": [
       {
         "vendor": "K0NSULT",
@@ -45,7 +45,7 @@
       },
       {
         "name": "k0nsult:stats",
-        "value": "{\"total\":7,\"files_html\":2,\"data_json\":0,\"code_files\":0,\"other_files\":5,\"node_libraries\":0}"
+        "value": "{\"total\":10,\"files_html\":2,\"data_json\":0,\"code_files\":0,\"other_files\":8,\"node_libraries\":0}"
       }
     ]
   },
@@ -84,6 +84,70 @@
     },
     {
       "type": "file",
+      "bom-ref": "surface:.github/workflows/verify.yml",
+      "name": "verify.yml",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8406b6124728e2d134271756c519ac50ad0f0a76d30bee9960782cb47cc98046"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": ".github/workflows/verify.yml"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "1546"
+        },
+        {
+          "name": "k0nsult:eol",
+          "value": "lf-normalized"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:KNOWN-LIMITATIONS.md",
+      "name": "KNOWN-LIMITATIONS.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5f165f56ab154e6b634e3ae847080a44c42430e1354326d52a3dc27c7a45c20"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "KNOWN-LIMITATIONS.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "1381"
+        },
+        {
+          "name": "k0nsult:eol",
+          "value": "lf-normalized"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
       "bom-ref": "surface:LICENSE",
       "name": "LICENSE",
       "group": "other",
@@ -103,6 +167,38 @@
         {
           "name": "k0nsult:bytes",
           "value": "11348"
+        },
+        {
+          "name": "k0nsult:eol",
+          "value": "lf-normalized"
+        },
+        {
+          "name": "k0nsult:surface",
+          "value": "open-source"
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "surface:model/README-source.md",
+      "name": "README-source.md",
+      "group": "other",
+      "version": "1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f0d9c6501695dfa1ebb18f100003bfce7aab9bc7bf8d71fb8430d8b11f2534b2"
+        }
+      ],
+      "properties": [
+        {
+          "name": "k0nsult:path",
+          "value": "model/README-source.md"
+        },
+        {
+          "name": "k0nsult:bytes",
+          "value": "1780"
         },
         {
           "name": "k0nsult:eol",
